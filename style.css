@@ -14,12 +14,12 @@
                     2. Must Be hover transition in header section      (OK)
                     3. Must be Image in Header                         (OK)
                     4. Three grid card with real Image and Info        (OK)
-                    5. Feedback star and social icon with font Awesome (OK)
+                    5. Social icon with font Awesome                   (OK)
                     6. Must Be Copyright Icon                          (OK)
                     7. Media Query for Mobile Responsive               (OK)
                     8. HTML5 and CSS3 Use without framework            (OK)
                     9. Comment In Section and CSS file                 (OK)
-                   10. Accurate Design 100%
+                   10. Accurate Design 100%                            (OK)
 
                 For Bonus Marks
 
@@ -53,6 +53,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/* Default CSS End */
 /*----------------------------------------*/
 /*         Header Section
 /*----------------------------------------*/ 
@@ -129,6 +130,7 @@ body{
     height: 480px;
     width: 600px;
 }
+/* Header End */
 /*----------------------------------------*/
 /*         Content Information
 /*----------------------------------------*/ 
@@ -167,6 +169,7 @@ body{
     height: auto;
     margin-top: 5%;
 }
+/* Content Section End */
 /*----------------------------------------*/
 /*              Latest News
 /*----------------------------------------*/ 
@@ -202,6 +205,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/* News Section End */
 /*----------------------------------------*/
 /*            Recent Highlight
 /*----------------------------------------*/
@@ -220,6 +224,7 @@ body{
     height: 418px;
     width: 564px;
 }
+/* Highliht Section End */
 /*----------------------------------------*/
 /*             Footer Section
 /*----------------------------------------*/ 
@@ -261,3 +266,6 @@ body{
 .footer-info p {
     text-align: center;
 }
+/*----------------------------------------*/
+/*             Design End
+/*----------------------------------------*/ 

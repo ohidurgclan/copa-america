@@ -11,7 +11,7 @@
         width: 100%;
     }
     /* .header-menus {
-        display:ruby-base;
+        display:inline-block;
     } */
 .header-content {
     display: grid;
@@ -46,3 +46,6 @@
     grid-gap: 40px;
 }
 }
+/*----------------------------------------*/
+/*         Responsive Design End
+/*----------------------------------------*/
