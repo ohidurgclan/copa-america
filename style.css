@@ -36,6 +36,8 @@
 /*----------------------------------------*/
 h1 {
     font-size: 64px;
+    margin-top:0;
+    padding:0;
 }
 h2 {
     font-size: 42px;
@@ -58,7 +60,6 @@ body{
     background-color: #2D25A0;
     width: 1440px;
     height: 677px;
-    position: relative;
     margin-bottom: 80px;
 }
 /* .header-menus {
@@ -82,16 +83,19 @@ body{
 .header-menus nav ul li a:hover {
     background-color: #E02C6D;
     padding: 10px 29px;
-}
+} */
 .login-btn {
+    float: right;
     margin-left: 20%;
+    padding: 3% 8% 0 8%;
 }
 .login-btn i {
     margin-right: 8px;
-} */
+}
 .header-content {
-    display: flex;
-    padding: 5% 8% 0 8%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 8% 8% 0 8%;
 }
 .header-txt {
     font-weight: 700;
@@ -116,7 +120,7 @@ body{
 .header-img img {
     height: 438px;
     width: 556px;
-    margin-left: 10%;
+    margin-left: 85%;
     margin-top: 8%;
     transition: 3s;
     display: inline-block;
@@ -201,7 +205,21 @@ body{
 /*----------------------------------------*/
 /*            Recent Highlight
 /*----------------------------------------*/
-
+.highlights {
+    padding: 0 7% 0 7%;
+}
+.highlights h2 {
+    margin-bottom: 0;
+}
+.highlight-video {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.highlight-1 video {
+    height: 418px;
+    width: 564px;
+}
 /*----------------------------------------*/
 /*             Footer Section
 /*----------------------------------------*/ 
@@ -230,9 +248,15 @@ body{
     margin-left: 8px;
     text-align: center;
 }
+.footer-info nav ul li:hover {
+    background-color: #2D25A0;
+}
 .footer-info nav ul li a i {
     color: gray;
     padding: 9.7px;
+}
+.footer-info nav ul li a i:hover {
+    color: #E02C6D;
 }
 .footer-info p {
     text-align: center;

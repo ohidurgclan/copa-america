@@ -19,12 +19,23 @@
     padding: 2% 8% 0 8%;
 }
     .header-img img {
-    height: 320px;
-    width: 440px;
+    height: 280px;
+    width: 360px;
+    margin-left: 10%;
+    margin-top: 33%;
+}
+    .header-img img:hover {
+    height: 310px;
+    width: 390px;
     margin-left: 10%;
     margin-top: 33%;
 }
     .player-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+}
+.highlight-video {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 30px;
