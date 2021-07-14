@@ -1,13 +1,31 @@
 @media only screen and (max-width:1440px){
-    .header {
-        width: 100%;
-    }
+.header {
+    width: 100%;
 }
+}
+/*------------------------- 
+    Default Media Quarry
+---------------------------*/
 @media only screen and (max-width:768px){
-    h1 {
+h1 {
     font-size: 38px;
 }
-    .header {
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 25px;
+}
+p {
+    font-size: 13px;
+}
+a {
+    font-size: 14px;
+}
+/*------------------------------- 
+    Mobile Screen Responsive
+------------------------------- */
+.header {
         width: 100%;
     }
     /* .header-menus {
@@ -16,36 +34,79 @@
 .header-content {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 2% 8% 0 8%;
+    padding: 18% 8% 0 8%;
 }
-    .header-img img {
-    height: 280px;
-    width: 360px;
+.header-img img {
+    height: 220px;
+    width: 300px;
     margin-left: 10%;
     margin-top: 33%;
 }
-    .header-img img:hover {
-    height: 310px;
-    width: 390px;
+.header-img img:hover {
+    height: 260px;
+    width: 310px;
     margin-left: 10%;
     margin-top: 33%;
 }
-    .player-card {
+.header-btn {
+    padding: 5px 20px;
+}
+/* Header End */
+/*------------------------ 
+    Content Responsive 
+-------------------------*/
+.player-card {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 30px;
 }
+.card div {
+    text-align: left;
+    padding: 0 20px 0 17px;
+}
+/* Content End */
+/*-------------------------------------- 
+    Highlight Video Responsive 
+----------------------------------------*/
 .highlight-video {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 30px;
 }
-    .latest-news {
+.highlight-1 video {
+    height: 275px;
+    width: 310px;
+}
+/* Highlight End */
+/*------------------------ 
+    News Responsive 
+-------------------------*/
+.latest-news {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 40px;
 }
+.news-card {
+    display: inline;
+}
+.news-info {
+    padding-left: 0%;
+    padding-top: 3%;
+}
+.thambonail img {
+    height: 205px;
+    width: 310px;
+}
+/* News Responsive End */
+/*------------------------ 
+    Footer Responsive 
+-------------------------*/
+.footer-info img {
+    height: 95px;
+    width: 310px;
+}
+/* Footer End */
 }
 /*----------------------------------------*/
-/*         Responsive Design End
+/*     Mobile Responsive Design End
 /*----------------------------------------*/
